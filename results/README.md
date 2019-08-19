@@ -2,18 +2,18 @@
 
 - [ソースコード](#ソースコード)
 - [結果](#結果)
-- [sample01](#sample01)
-  - [音源特徴](#音源特徴)
-  - [解析結果](#解析結果)
-  - [所感](#所感)
-- [sample02（話者識別あり）](#sample02話者識別あり)
-  - [音源特徴](#音源特徴-1)
-  - [解析結果](#解析結果-1)
-  - [所感](#所感-1)
-- [sample03（話者識別あり）](#sample03話者識別あり)
-  - [音源特徴](#音源特徴-2)
-  - [解析結果](#解析結果-2)
-  - [所感](#所感-2)
+  - [sample01](#sample01)
+    - [音源特徴](#音源特徴)
+    - [解析結果](#解析結果)
+    - [所感](#所感)
+  - [sample02（話者識別あり）](#sample02話者識別あり)
+    - [音源特徴](#音源特徴-1)
+    - [解析結果](#解析結果-1)
+    - [所感](#所感-1)
+  - [sample03（話者識別あり）](#sample03話者識別あり)
+    - [音源特徴](#音源特徴-2)
+    - [解析結果](#解析結果-2)
+    - [所感](#所感-2)
 
 <!-- /TOC -->
 
@@ -22,30 +22,30 @@
 [cognitive\-services\-speech\-sdk/samples/batch/python at master · Azure\-Samples/cognitive\-services\-speech\-sdk](https://github.com/Azure-Samples/cognitive-services-speech-sdk/tree/master/samples/batch/python)  
 
 # 結果
-# sample01
-## 音源特徴
+## sample01
+### 音源特徴
 * 男性と女性の会話  
 * かなりカジュアルな語り口&会話がかぶっている箇所もあるので、識別難易度はかなり高そう  
 * ソース  
 https://pj.ninjal.ac.jp/corpus_center/csj/sample.html の 課題指向対話音声  
 
-## 解析結果
+### 解析結果
 [result01.txt](results01.txt)  
 
-## 所感
+### 所感
 * 精度は悪いが、これはデータが難しすぎた（GCPでもボロボロだった）  
 
-# sample02（話者識別あり）
-## 音源特徴
+## sample02（話者識別あり）
+### 音源特徴
 * 男性が一人で話している（講演会？）  
 * 割とはっきりとした口調  
 * ソース  
 https://pj.ninjal.ac.jp/corpus_center/csj/sample.html の 学会講演  
 
-## 解析結果
+### 解析結果
 [result02.txt](results02.txt)  
 
-## 所感
+### 所感
 * 注）ダイアライゼーションはモノラルのみ対応  
 * 分析結果は悪くない  
   * GCPと比較して、一長一短（GCPよりAzureの方が正確な箇所もあれば反対の場合もある）  
@@ -54,8 +54,8 @@ https://pj.ninjal.ac.jp/corpus_center/csj/sample.html の 学会講演
   * ダイアライゼーションをオンにすると、前提として2人いるという認識で分析される？  
   ->sample03のとおり、2人いる前提で分析しているような感じなので正確な話者識別ができなかったのでは  
 
-# sample03（話者識別あり）
-## 音源特徴
+## sample03（話者識別あり）
+### 音源特徴
 * 声色を変えて二人で話している体で録音  
 * コールセンターのやり取りを想定  
 * 原文  
@@ -70,10 +70,10 @@ https://pj.ninjal.ac.jp/corpus_center/csj/sample.html の 学会講演
 1 ありがとうございます。
 ```
 
-## 解析結果
+### 解析結果
 [result03.txt](result03.txt)  
 
-## 所感
+### 所感
 * 概ね正確に記録できているが、端々で変な変換がされているところもある  
 「はい、どの商品でしょうか」->「ファイトの商品でしょうか」  
 「液漏れ」->「息漏れ」  
