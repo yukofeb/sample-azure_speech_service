@@ -1,0 +1,545 @@
+Starting transcription client...
+Deleting all existing completed transcriptions.
+Creating transcriptions.
+Checking status.
+Transcriptions status: completed (this transcription): False, 0 running, 1 not started yet
+Transcription succeeded. Results: 
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "AudioLengthInSeconds": 32.04,
+      "CombinedResults": [
+        {
+          "ChannelNumber": null,
+          "Lexical": "すい ませ ん 化粧品 に ついて 問い合わせた いん です けど ファイト の 商品 でしょう か そちら きて 購入 した 化粧品 何 です が 息 漏れ してる みたいです 申し訳 ござい ませ ん 交換 さ せて いただきます 住所 は どちら です か 千代田区 一丁目 です 承知 しました 明日 までに 配送 を 致 します ありがとう ございます",
+          "ITN": "すい ませ ん 化粧品 に ついて 問い合わせた いん です けど ファイト の 商品 でしょう か そちら きて 購入 した 化粧品 何 です が 息 漏れ してる みたいです 申し訳 ござい ませ ん 交換 さ せて いただきます 住所 は どちら です か 千代田区 一丁目 です 承知 しました 明日 までに 配送 を 致 します ありがとう ございます",
+          "MaskedITN": "すいません化粧品について問い合わせたいんですけど ファイトの商品でしょうか そちらきて購入した化粧品何ですが息漏れしてるみたいです 申し訳ございません交換させていただきます住所はどちらですか 千代田区一丁目です 承知しました明日までに配送を致します ありがとうございます",
+          "Display": "すいません。化粧品について問い合わせたいんですけど。 ファイトの商品でしょうか。 そちらきて購入した化粧品何ですが、息漏れしてるみたいです。 申し訳ございません。交換させていただきます。住所はどちらですか。 千代田区一丁目です。 承知しました。明日までに配送を致します。 ありがとうございます。"
+        }
+      ],
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "1",
+          "Offset": 12700000,
+          "Duration": 36600000,
+          "OffsetInSeconds": 1.27,
+          "DurationInSeconds": 3.66,
+          "NBest": [
+            {
+              "Confidence": 0.938223243,
+              "Lexical": "すい ませ ん 化粧品 に ついて 問い合わせた いん です けど",
+              "ITN": "すい ませ ん 化粧品 に ついて 問い合わせた いん です けど",
+              "MaskedITN": "すいません化粧品について問い合わせたいんですけど",
+              "Display": "すいません。化粧品について問い合わせたいんですけど。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "すい",
+                  "Offset": 12700000,
+                  "Duration": 3300000,
+                  "OffsetInSeconds": 1.27,
+                  "DurationInSeconds": 0.33
+                },
+                {
+                  "Word": "ませ",
+                  "Offset": 16000000,
+                  "Duration": 3000000,
+                  "OffsetInSeconds": 1.6,
+                  "DurationInSeconds": 0.3
+                },
+                {
+                  "Word": "ん",
+                  "Offset": 19000000,
+                  "Duration": 2900000,
+                  "OffsetInSeconds": 1.9,
+                  "DurationInSeconds": 0.29
+                },
+                {
+                  "Word": "化粧品",
+                  "Offset": 22100000,
+                  "Duration": 5900000,
+                  "OffsetInSeconds": 2.21,
+                  "DurationInSeconds": 0.59
+                },
+                {
+                  "Word": "に",
+                  "Offset": 28000000,
+                  "Duration": 1400000,
+                  "OffsetInSeconds": 2.8,
+                  "DurationInSeconds": 0.14
+                },
+                {
+                  "Word": "ついて",
+                  "Offset": 29400000,
+                  "Duration": 3400000,
+                  "OffsetInSeconds": 2.94,
+                  "DurationInSeconds": 0.34
+                },
+                {
+                  "Word": "問い合わせた",
+                  "Offset": 32800000,
+                  "Duration": 6800000,
+                  "OffsetInSeconds": 3.28,
+                  "DurationInSeconds": 0.68
+                },
+                {
+                  "Word": "いん",
+                  "Offset": 39600000,
+                  "Duration": 1400000,
+                  "OffsetInSeconds": 3.96,
+                  "DurationInSeconds": 0.14
+                },
+                {
+                  "Word": "です",
+                  "Offset": 41000000,
+                  "Duration": 2000000,
+                  "OffsetInSeconds": 4.1,
+                  "DurationInSeconds": 0.2
+                },
+                {
+                  "Word": "けど",
+                  "Offset": 43000000,
+                  "Duration": 6300000,
+                  "OffsetInSeconds": 4.3,
+                  "DurationInSeconds": 0.63
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "2",
+          "Offset": 59300000,
+          "Duration": 21300000,
+          "OffsetInSeconds": 5.93,
+          "DurationInSeconds": 2.13,
+          "NBest": [
+            {
+              "Confidence": 0.938223243,
+              "Lexical": "ファイト の 商品 でしょう か",
+              "ITN": "ファイト の 商品 でしょう か",
+              "MaskedITN": "ファイトの商品でしょうか",
+              "Display": "ファイトの商品でしょうか。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "ファイト",
+                  "Offset": 59300000,
+                  "Duration": 9700000,
+                  "OffsetInSeconds": 5.93,
+                  "DurationInSeconds": 0.97
+                },
+                {
+                  "Word": "の",
+                  "Offset": 69000000,
+                  "Duration": 1200000,
+                  "OffsetInSeconds": 6.9,
+                  "DurationInSeconds": 0.12
+                },
+                {
+                  "Word": "商品",
+                  "Offset": 70200000,
+                  "Duration": 3600000,
+                  "OffsetInSeconds": 7.02,
+                  "DurationInSeconds": 0.36
+                },
+                {
+                  "Word": "でしょう",
+                  "Offset": 73800000,
+                  "Duration": 3200000,
+                  "OffsetInSeconds": 7.38,
+                  "DurationInSeconds": 0.32
+                },
+                {
+                  "Word": "か",
+                  "Offset": 77000000,
+                  "Duration": 3600000,
+                  "OffsetInSeconds": 7.7,
+                  "DurationInSeconds": 0.36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "1",
+          "Offset": 91000000,
+          "Duration": 62400000,
+          "OffsetInSeconds": 9.1,
+          "DurationInSeconds": 6.24,
+          "NBest": [
+            {
+              "Confidence": 0.9442123,
+              "Lexical": "そちら きて 購入 した 化粧品 何 です が 息 漏れ してる みたいです",
+              "ITN": "そちら きて 購入 した 化粧品 何 です が 息 漏れ してる みたいです",
+              "MaskedITN": "そちらきて購入した化粧品何ですが息漏れしてるみたいです",
+              "Display": "そちらきて購入した化粧品何ですが、息漏れしてるみたいです。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "そちら",
+                  "Offset": 91000000,
+                  "Duration": 9000000,
+                  "OffsetInSeconds": 9.1,
+                  "DurationInSeconds": 0.9
+                },
+                {
+                  "Word": "きて",
+                  "Offset": 100000000,
+                  "Duration": 2600000,
+                  "OffsetInSeconds": 10.0,
+                  "DurationInSeconds": 0.26
+                },
+                {
+                  "Word": "購入",
+                  "Offset": 102600000,
+                  "Duration": 5000000,
+                  "OffsetInSeconds": 10.26,
+                  "DurationInSeconds": 0.5
+                },
+                {
+                  "Word": "した",
+                  "Offset": 107600000,
+                  "Duration": 3600000,
+                  "OffsetInSeconds": 10.76,
+                  "DurationInSeconds": 0.36
+                },
+                {
+                  "Word": "化粧品",
+                  "Offset": 111200000,
+                  "Duration": 5200000,
+                  "OffsetInSeconds": 11.12,
+                  "DurationInSeconds": 0.52
+                },
+                {
+                  "Word": "何",
+                  "Offset": 116400000,
+                  "Duration": 1800000,
+                  "OffsetInSeconds": 11.64,
+                  "DurationInSeconds": 0.18
+                },
+                {
+                  "Word": "です",
+                  "Offset": 118200000,
+                  "Duration": 2400000,
+                  "OffsetInSeconds": 11.82,
+                  "DurationInSeconds": 0.24
+                },
+                {
+                  "Word": "が",
+                  "Offset": 120600000,
+                  "Duration": 6300000,
+                  "OffsetInSeconds": 12.06,
+                  "DurationInSeconds": 0.63
+                },
+                {
+                  "Word": "息",
+                  "Offset": 127100000,
+                  "Duration": 3500000,
+                  "OffsetInSeconds": 12.71,
+                  "DurationInSeconds": 0.35
+                },
+                {
+                  "Word": "漏れ",
+                  "Offset": 130600000,
+                  "Duration": 2800000,
+                  "OffsetInSeconds": 13.06,
+                  "DurationInSeconds": 0.28
+                },
+                {
+                  "Word": "してる",
+                  "Offset": 133400000,
+                  "Duration": 3400000,
+                  "OffsetInSeconds": 13.34,
+                  "DurationInSeconds": 0.34
+                },
+                {
+                  "Word": "みたいです",
+                  "Offset": 136800000,
+                  "Duration": 16600000,
+                  "OffsetInSeconds": 13.68,
+                  "DurationInSeconds": 1.66
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "2",
+          "Offset": 153600000,
+          "Duration": 55500000,
+          "OffsetInSeconds": 15.36,
+          "DurationInSeconds": 5.55,
+          "NBest": [
+            {
+              "Confidence": 0.9442123,
+              "Lexical": "申し訳 ござい ませ ん 交換 さ せて いただきます 住所 は どちら です か",
+              "ITN": "申し訳 ござい ませ ん 交換 さ せて いただきます 住所 は どちら です か",
+              "MaskedITN": "申し訳ございません交換させていただきます住所はどちらですか",
+              "Display": "申し訳ございません。交換させていただきます。住所はどちらですか。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "申し訳",
+                  "Offset": 153600000,
+                  "Duration": 7600000,
+                  "OffsetInSeconds": 15.36,
+                  "DurationInSeconds": 0.76
+                },
+                {
+                  "Word": "ござい",
+                  "Offset": 161200000,
+                  "Duration": 3200000,
+                  "OffsetInSeconds": 16.12,
+                  "DurationInSeconds": 0.32
+                },
+                {
+                  "Word": "ませ",
+                  "Offset": 164400000,
+                  "Duration": 2600000,
+                  "OffsetInSeconds": 16.44,
+                  "DurationInSeconds": 0.26
+                },
+                {
+                  "Word": "ん",
+                  "Offset": 167000000,
+                  "Duration": 4000000,
+                  "OffsetInSeconds": 16.7,
+                  "DurationInSeconds": 0.4
+                },
+                {
+                  "Word": "交換",
+                  "Offset": 171200000,
+                  "Duration": 5400000,
+                  "OffsetInSeconds": 17.12,
+                  "DurationInSeconds": 0.54
+                },
+                {
+                  "Word": "さ",
+                  "Offset": 176600000,
+                  "Duration": 1400000,
+                  "OffsetInSeconds": 17.66,
+                  "DurationInSeconds": 0.14
+                },
+                {
+                  "Word": "せて",
+                  "Offset": 178000000,
+                  "Duration": 2400000,
+                  "OffsetInSeconds": 17.8,
+                  "DurationInSeconds": 0.24
+                },
+                {
+                  "Word": "いただきます",
+                  "Offset": 180400000,
+                  "Duration": 16200000,
+                  "OffsetInSeconds": 18.04,
+                  "DurationInSeconds": 1.62
+                },
+                {
+                  "Word": "住所",
+                  "Offset": 196600000,
+                  "Duration": 3600000,
+                  "OffsetInSeconds": 19.66,
+                  "DurationInSeconds": 0.36
+                },
+                {
+                  "Word": "は",
+                  "Offset": 200200000,
+                  "Duration": 1000000,
+                  "OffsetInSeconds": 20.02,
+                  "DurationInSeconds": 0.1
+                },
+                {
+                  "Word": "どちら",
+                  "Offset": 201200000,
+                  "Duration": 3100000,
+                  "OffsetInSeconds": 20.12,
+                  "DurationInSeconds": 0.31
+                },
+                {
+                  "Word": "です",
+                  "Offset": 204300000,
+                  "Duration": 1900000,
+                  "OffsetInSeconds": 20.43,
+                  "DurationInSeconds": 0.19
+                },
+                {
+                  "Word": "か",
+                  "Offset": 206200000,
+                  "Duration": 2900000,
+                  "OffsetInSeconds": 20.62,
+                  "DurationInSeconds": 0.29
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "1",
+          "Offset": 220100000,
+          "Duration": 19700000,
+          "OffsetInSeconds": 22.01,
+          "DurationInSeconds": 1.97,
+          "NBest": [
+            {
+              "Confidence": 0.9285639,
+              "Lexical": "千代田区 一丁目 です",
+              "ITN": "千代田区 一丁目 です",
+              "MaskedITN": "千代田区一丁目です",
+              "Display": "千代田区一丁目です。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "千代田区",
+                  "Offset": 220100000,
+                  "Duration": 8900000,
+                  "OffsetInSeconds": 22.01,
+                  "DurationInSeconds": 0.89
+                },
+                {
+                  "Word": "一丁目",
+                  "Offset": 229000000,
+                  "Duration": 4500000,
+                  "OffsetInSeconds": 22.9,
+                  "DurationInSeconds": 0.45
+                },
+                {
+                  "Word": "です",
+                  "Offset": 233500000,
+                  "Duration": 6300000,
+                  "OffsetInSeconds": 23.35,
+                  "DurationInSeconds": 0.63
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "2",
+          "Offset": 250600000,
+          "Duration": 44300000,
+          "OffsetInSeconds": 25.06,
+          "DurationInSeconds": 4.43,
+          "NBest": [
+            {
+              "Confidence": 0.9285639,
+              "Lexical": "承知 しました 明日 までに 配送 を 致 します",
+              "ITN": "承知 しました 明日 までに 配送 を 致 します",
+              "MaskedITN": "承知しました明日までに配送を致します",
+              "Display": "承知しました。明日までに配送を致します。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "承知",
+                  "Offset": 250600000,
+                  "Duration": 5000000,
+                  "OffsetInSeconds": 25.06,
+                  "DurationInSeconds": 0.5
+                },
+                {
+                  "Word": "しました",
+                  "Offset": 255600000,
+                  "Duration": 7500000,
+                  "OffsetInSeconds": 25.56,
+                  "DurationInSeconds": 0.75
+                },
+                {
+                  "Word": "明日",
+                  "Offset": 265200000,
+                  "Duration": 6600000,
+                  "OffsetInSeconds": 26.52,
+                  "DurationInSeconds": 0.66
+                },
+                {
+                  "Word": "までに",
+                  "Offset": 271800000,
+                  "Duration": 3400000,
+                  "OffsetInSeconds": 27.18,
+                  "DurationInSeconds": 0.34
+                },
+                {
+                  "Word": "配送",
+                  "Offset": 275200000,
+                  "Duration": 4400000,
+                  "OffsetInSeconds": 27.52,
+                  "DurationInSeconds": 0.44
+                },
+                {
+                  "Word": "を",
+                  "Offset": 279600000,
+                  "Duration": 1200000,
+                  "OffsetInSeconds": 27.96,
+                  "DurationInSeconds": 0.12
+                },
+                {
+                  "Word": "致",
+                  "Offset": 280800000,
+                  "Duration": 2200000,
+                  "OffsetInSeconds": 28.08,
+                  "DurationInSeconds": 0.22
+                },
+                {
+                  "Word": "します",
+                  "Offset": 283000000,
+                  "Duration": 11900000,
+                  "OffsetInSeconds": 28.3,
+                  "DurationInSeconds": 1.19
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "1",
+          "Offset": 295100000,
+          "Duration": 11700000,
+          "OffsetInSeconds": 29.51,
+          "DurationInSeconds": 1.17,
+          "NBest": [
+            {
+              "Confidence": 0.9285639,
+              "Lexical": "ありがとう ございます",
+              "ITN": "ありがとう ございます",
+              "MaskedITN": "ありがとうございます",
+              "Display": "ありがとうございます。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "ありがとう",
+                  "Offset": 295100000,
+                  "Duration": 4800000,
+                  "OffsetInSeconds": 29.51,
+                  "DurationInSeconds": 0.48
+                },
+                {
+                  "Word": "ございます",
+                  "Offset": 299900000,
+                  "Duration": 6900000,
+                  "OffsetInSeconds": 29.99,
+                  "DurationInSeconds": 0.69
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+Transcriptions status: completed (this transcription): True, 0 running, 0 not started yet

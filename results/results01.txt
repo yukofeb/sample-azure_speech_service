@@ -1,0 +1,174 @@
+Starting transcription client...
+Deleting all existing completed transcriptions.
+Creating transcriptions.
+Checking status.
+Transcriptions status: completed (this transcription): False, 0 running, 1 not started yet
+Transcriptions status: completed (this transcription): False, 0 running, 1 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcription succeeded. Results: 
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "AudioLengthInSeconds": 40.54,
+      "CombinedResults": [
+        {
+          "ChannelNumber": null,
+          "Lexical": "開けます 私の方は名前時計一言っていうのが入っていますはい えそうですか名前はちょっと読み上げて組んでいきます上から平野レミ 平野レミあの料理を料理あのう料理研究家ラストはいメガネかけててショートカットはいセルジオはい はいレミはカタカナです セルジオ越後 これは",
+          "ITN": "開けます 私の方は名前時計一言っていうのが入っていますはい えそうですか名前はちょっと読み上げて組んでいきます上から平野レミ 平野レミあの料理を料理あのう料理研究家ラストはいメガネかけててショートカットはいセルジオはい はいレミはカタカナです セルジオ越後 これは",
+          "MaskedITN": "開けます 私の方は名前時計一言っていうのが入っていますはい えそうですか名前はちょっと読み上げて組んでいきます上から平野レミ 平野レミあの料理を料理あのう料理研究家ラストはいメガネかけててショートカットはいセルジオはい はいレミはカタカナです セルジオ越後 これは",
+          "Display": "開けます。 私の方は名前時計一言っていうのが入っていますはい。 えそうですか名前はちょっと読み上げて組んでいきます。上から平野レミ。 平野レミあの料理を料理。あのう料理研究家ラストはいメガネかけててショートカットはいセルジオはい。 はいレミはカタカナです。 セルジオ越後。 これは？"
+        }
+      ],
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": null,
+          "Offset": 300000,
+          "Duration": 9700000,
+          "OffsetInSeconds": 0.03,
+          "DurationInSeconds": 0.97,
+          "NBest": [
+            {
+              "Confidence": 0.659492433,
+              "Lexical": "/開けます/開けます/アケマス",
+              "ITN": "開けます",
+              "MaskedITN": "開けます",
+              "Display": "開けます。",
+              "Sentiment": null,
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": null,
+          "Offset": 59200000,
+          "Duration": 52500000,
+          "OffsetInSeconds": 5.92,
+          "DurationInSeconds": 5.25,
+          "NBest": [
+            {
+              "Confidence": 0.9358558,
+              "Lexical": "/私/私/ワタシ /の/の/ノ /方/方/ホー は /名前/名前/ナマエ 時計 一言 /って/って/ッテ /いう/いう/イウ /の/の/ノ /が/が/ガ /入っています/入っています/ハイッテーマス はい",
+              "ITN": "私の方は名前時計一言っていうのが入っていますはい",
+              "MaskedITN": "私の方は名前時計一言っていうのが入っていますはい",
+              "Display": "私の方は名前時計一言っていうのが入っていますはい。",
+              "Sentiment": null,
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": null,
+          "Offset": 142100000,
+          "Duration": 66900000,
+          "OffsetInSeconds": 14.21,
+          "DurationInSeconds": 6.69,
+          "NBest": [
+            {
+              "Confidence": 0.9318971,
+              "Lexical": "/え/え/エ /そうです/そうです/ソーデス /か/か/カ /名前/名前/ナマエ は /ちょっと/ちょっと/チョット /読み上げて/読み上げて/ヨミアゲテ /組んで/組んで/クンデ /いきます/いきます/イキマス /上/上/ウエ /から/から/カラ /平野/平野/ヒラノ /レミ/レミ/レミ",
+              "ITN": "えそうですか名前はちょっと読み上げて組んでいきます上から平野レミ",
+              "MaskedITN": "えそうですか名前はちょっと読み上げて組んでいきます上から平野レミ",
+              "Display": "えそうですか名前はちょっと読み上げて組んでいきます。上から平野レミ。",
+              "Sentiment": null,
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": null,
+          "Offset": 214600000,
+          "Duration": 102800000,
+          "OffsetInSeconds": 21.46,
+          "DurationInSeconds": 10.28,
+          "NBest": [
+            {
+              "Confidence": 0.898394167,
+              "Lexical": "/平野/平野/ヒラノ /レミ/レミ/レミ /あの/あの/アノ /料理/料理/リョーリ /を/を/ヲ /料理/料理/リョーリ /あのう/あのう/アノウ /料理/料理/リョーリ /研究家/研究家/ケンキューカ /ラスト/ラスト/ラスト はい /メガネ/メガネ/メガネ /かけてて/かけてて/カケテテ /ショートカット/ショートカット/ショートカット はい /セルジオ/セルジオ/セルジオ はい",
+              "ITN": "平野レミあの料理を料理あのう料理研究家ラストはいメガネかけててショートカットはいセルジオはい",
+              "MaskedITN": "平野レミあの料理を料理あのう料理研究家ラストはいメガネかけててショートカットはいセルジオはい",
+              "Display": "平野レミあの料理を料理。あのう料理研究家ラストはいメガネかけててショートカットはいセルジオはい。",
+              "Sentiment": null,
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": null,
+          "Offset": 329800000,
+          "Duration": 21100000,
+          "OffsetInSeconds": 32.98,
+          "DurationInSeconds": 2.11,
+          "NBest": [
+            {
+              "Confidence": 0.8717164,
+              "Lexical": "はい /レミ/レミ/レミ は /カタカナ/カタカナ/カタカナ /です/です/デス",
+              "ITN": "はいレミはカタカナです",
+              "MaskedITN": "はいレミはカタカナです",
+              "Display": "はいレミはカタカナです。",
+              "Sentiment": null,
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": null,
+          "Offset": 368800000,
+          "Duration": 13100000,
+          "OffsetInSeconds": 36.88,
+          "DurationInSeconds": 1.31,
+          "NBest": [
+            {
+              "Confidence": 0.955607,
+              "Lexical": "/セルジオ/セルジオ/セルジオ 越後",
+              "ITN": "セルジオ越後",
+              "MaskedITN": "セルジオ越後",
+              "Display": "セルジオ越後。",
+              "Sentiment": null,
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": null,
+          "Offset": 395800000,
+          "Duration": 9600000,
+          "OffsetInSeconds": 39.58,
+          "DurationInSeconds": 0.96,
+          "NBest": [
+            {
+              "Confidence": 0.8111827,
+              "Lexical": "/これ/これ/コレ は",
+              "ITN": "これは",
+              "MaskedITN": "これは",
+              "Display": "これは？",
+              "Sentiment": null,
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+Transcriptions status: completed (this transcription): True, 0 running, 0 not started yet

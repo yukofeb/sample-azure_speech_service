@@ -1,0 +1,914 @@
+Starting transcription client...
+Deleting all existing completed transcriptions.
+Creating transcriptions.
+Checking status.
+Transcriptions status: completed (this transcription): False, 0 running, 1 not started yet
+Transcriptions status: completed (this transcription): False, 0 running, 1 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcriptions status: completed (this transcription): False, 1 running, 0 not started yet
+Transcription succeeded. Results: 
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "AudioLengthInSeconds": 35.15,
+      "CombinedResults": [
+        {
+          "ChannelNumber": null,
+          "Lexical": "パラ 言語 情報 という こと なん です が 簡単 に 最初 に 復習 を して おきたい と 思います こうやって 話して おります と それ は もちろん あの 言語 的 情報 を 伝える という こと が 一つ の 重要 な 目的 なの であります が 同時 に パラ 言語 情報 を そして 非 言語 情報 が 伝わって おり ますが この 三分 法 は 藤崎 先生 に よる もの で して pro 言語 情報 という の は 要 は 伊藤 的 に 採用 できる 話者 が ちゃんと コントロール して 出して いる ん だ けど も 言語 情報 と 違って 連続 的 に 変化 する カテゴライズ する こと が や 難 しい そういった 状況 が あります",
+          "ITN": "パラ 言語 情報 という こと なん です が 簡単 に 最初 に 復習 を して おきたい と 思います こうやって 話して おります と それ は もちろん あの 言語 的 情報 を 伝える という こと が 一つ の 重要 な 目的 なの であります が 同時 に パラ 言語 情報 を そして 非 言語 情報 が 伝わって おり ますが この 三分 法 は 藤崎 先生 に よる もの で して pro 言語 情報 という の は 要 は 伊藤 的 に 採用 できる 話者 が ちゃんと コントロール して 出して いる ん だ けど も 言語 情報 と 違って 連続 的 に 変化 する カテゴライズ する こと が や 難 しい そういった 状況 が あります",
+          "MaskedITN": "パラ言語情報ということなんですが簡単に最初に復習をしておきたいと思いますこうやって話しておりますとそれはもちろんあの言語的情報を伝えるということが一つの重要な目的なのでありますが同時にパラ言語情報をそして非言語情報が伝わっておりますがこの 3 分法は藤崎先生によるもので して pro 言語情報というのは要は伊藤的に採用できる話者がちゃんとコントロールして出しているんだけども言語情報と違って連続的に変化する カテゴライズすることがや難 しいそういった状況があります",
+          "Display": "パラ言語情報ということなんですが、簡単に最初に復習をしておきたいと思います。こうやって話しておりますと、それはもちろんあの言語的情報を伝えるということが一つの重要な目的なのでありますが、同時にパラ言語情報をそして非言語情報が伝わっておりますが、この 3 分法は、藤崎先生によるもので。 して pro。 言語情報というのは要は伊藤的に採用できる話者がちゃんとコントロールして出しているんだけども言語情報と違って連続的に変化する。 カテゴライズすることがや難。 しいそういった状況があります。"
+        }
+      ],
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "2",
+          "Offset": 3000000,
+          "Duration": 203000000,
+          "OffsetInSeconds": 0.3,
+          "DurationInSeconds": 20.3,
+          "NBest": [
+            {
+              "Confidence": 0.9176549,
+              "Lexical": "パラ 言語 情報 という こと なん です が 簡単 に 最初 に 復習 を して おきたい と 思います こうやって 話して おります と それ は もちろん あの 言語 的 情報 を 伝える という こと が 一つ の 重要 な 目的 なの であります が 同時 に パラ 言語 情報 を そして 非 言語 情報 が 伝わって おり ますが この 三分 法 は 藤崎 先生 に よる もの で",
+              "ITN": "パラ 言語 情報 という こと なん です が 簡単 に 最初 に 復習 を して おきたい と 思います こうやって 話して おります と それ は もちろん あの 言語 的 情報 を 伝える という こと が 一つ の 重要 な 目的 なの であります が 同時 に パラ 言語 情報 を そして 非 言語 情報 が 伝わって おり ますが この 三分 法 は 藤崎 先生 に よる もの で",
+              "MaskedITN": "パラ言語情報ということなんですが簡単に最初に復習をしておきたいと思いますこうやって話しておりますとそれはもちろんあの言語的情報を伝えるということが一つの重要な目的なのでありますが同時にパラ言語情報をそして非言語情報が伝わっておりますがこの 3 分法は藤崎先生によるもので",
+              "Display": "パラ言語情報ということなんですが、簡単に最初に復習をしておきたいと思います。こうやって話しておりますと、それはもちろんあの言語的情報を伝えるということが一つの重要な目的なのでありますが、同時にパラ言語情報をそして非言語情報が伝わっておりますが、この 3 分法は、藤崎先生によるもので。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "パラ",
+                  "Offset": 3000000,
+                  "Duration": 5100000,
+                  "OffsetInSeconds": 0.3,
+                  "DurationInSeconds": 0.51
+                },
+                {
+                  "Word": "言語",
+                  "Offset": 8100000,
+                  "Duration": 2600000,
+                  "OffsetInSeconds": 0.81,
+                  "DurationInSeconds": 0.26
+                },
+                {
+                  "Word": "情報",
+                  "Offset": 10700000,
+                  "Duration": 3700000,
+                  "OffsetInSeconds": 1.07,
+                  "DurationInSeconds": 0.37
+                },
+                {
+                  "Word": "という",
+                  "Offset": 14400000,
+                  "Duration": 2300000,
+                  "OffsetInSeconds": 1.44,
+                  "DurationInSeconds": 0.23
+                },
+                {
+                  "Word": "こと",
+                  "Offset": 16700000,
+                  "Duration": 1300000,
+                  "OffsetInSeconds": 1.67,
+                  "DurationInSeconds": 0.13
+                },
+                {
+                  "Word": "なん",
+                  "Offset": 18000000,
+                  "Duration": 1800000,
+                  "OffsetInSeconds": 1.8,
+                  "DurationInSeconds": 0.18
+                },
+                {
+                  "Word": "です",
+                  "Offset": 19800000,
+                  "Duration": 2000000,
+                  "OffsetInSeconds": 1.98,
+                  "DurationInSeconds": 0.2
+                },
+                {
+                  "Word": "が",
+                  "Offset": 21800000,
+                  "Duration": 3200000,
+                  "OffsetInSeconds": 2.18,
+                  "DurationInSeconds": 0.32
+                },
+                {
+                  "Word": "簡単",
+                  "Offset": 25200000,
+                  "Duration": 4400000,
+                  "OffsetInSeconds": 2.52,
+                  "DurationInSeconds": 0.44
+                },
+                {
+                  "Word": "に",
+                  "Offset": 29600000,
+                  "Duration": 1600000,
+                  "OffsetInSeconds": 2.96,
+                  "DurationInSeconds": 0.16
+                },
+                {
+                  "Word": "最初",
+                  "Offset": 31200000,
+                  "Duration": 2900000,
+                  "OffsetInSeconds": 3.12,
+                  "DurationInSeconds": 0.29
+                },
+                {
+                  "Word": "に",
+                  "Offset": 34100000,
+                  "Duration": 4700000,
+                  "OffsetInSeconds": 3.41,
+                  "DurationInSeconds": 0.47
+                },
+                {
+                  "Word": "復習",
+                  "Offset": 40200000,
+                  "Duration": 8800000,
+                  "OffsetInSeconds": 4.02,
+                  "DurationInSeconds": 0.88
+                },
+                {
+                  "Word": "を",
+                  "Offset": 49000000,
+                  "Duration": 1800000,
+                  "OffsetInSeconds": 4.9,
+                  "DurationInSeconds": 0.18
+                },
+                {
+                  "Word": "して",
+                  "Offset": 50800000,
+                  "Duration": 1800000,
+                  "OffsetInSeconds": 5.08,
+                  "DurationInSeconds": 0.18
+                },
+                {
+                  "Word": "おきたい",
+                  "Offset": 52600000,
+                  "Duration": 3600000,
+                  "OffsetInSeconds": 5.26,
+                  "DurationInSeconds": 0.36
+                },
+                {
+                  "Word": "と",
+                  "Offset": 56200000,
+                  "Duration": 700000,
+                  "OffsetInSeconds": 5.62,
+                  "DurationInSeconds": 0.07
+                },
+                {
+                  "Word": "思います",
+                  "Offset": 56900000,
+                  "Duration": 8500000,
+                  "OffsetInSeconds": 5.69,
+                  "DurationInSeconds": 0.85
+                },
+                {
+                  "Word": "こうやって",
+                  "Offset": 71200000,
+                  "Duration": 5700000,
+                  "OffsetInSeconds": 7.12,
+                  "DurationInSeconds": 0.57
+                },
+                {
+                  "Word": "話して",
+                  "Offset": 76900000,
+                  "Duration": 5700000,
+                  "OffsetInSeconds": 7.69,
+                  "DurationInSeconds": 0.57
+                },
+                {
+                  "Word": "おります",
+                  "Offset": 82600000,
+                  "Duration": 3600000,
+                  "OffsetInSeconds": 8.26,
+                  "DurationInSeconds": 0.36
+                },
+                {
+                  "Word": "と",
+                  "Offset": 86200000,
+                  "Duration": 2600000,
+                  "OffsetInSeconds": 8.62,
+                  "DurationInSeconds": 0.26
+                },
+                {
+                  "Word": "それ",
+                  "Offset": 88800000,
+                  "Duration": 2000000,
+                  "OffsetInSeconds": 8.88,
+                  "DurationInSeconds": 0.2
+                },
+                {
+                  "Word": "は",
+                  "Offset": 90800000,
+                  "Duration": 1100000,
+                  "OffsetInSeconds": 9.08,
+                  "DurationInSeconds": 0.11
+                },
+                {
+                  "Word": "もちろん",
+                  "Offset": 91900000,
+                  "Duration": 3900000,
+                  "OffsetInSeconds": 9.19,
+                  "DurationInSeconds": 0.39
+                },
+                {
+                  "Word": "あの",
+                  "Offset": 95800000,
+                  "Duration": 1600000,
+                  "OffsetInSeconds": 9.58,
+                  "DurationInSeconds": 0.16
+                },
+                {
+                  "Word": "言語",
+                  "Offset": 97400000,
+                  "Duration": 3400000,
+                  "OffsetInSeconds": 9.74,
+                  "DurationInSeconds": 0.34
+                },
+                {
+                  "Word": "的",
+                  "Offset": 100800000,
+                  "Duration": 2000000,
+                  "OffsetInSeconds": 10.08,
+                  "DurationInSeconds": 0.2
+                },
+                {
+                  "Word": "情報",
+                  "Offset": 102800000,
+                  "Duration": 3700000,
+                  "OffsetInSeconds": 10.28,
+                  "DurationInSeconds": 0.37
+                },
+                {
+                  "Word": "を",
+                  "Offset": 106500000,
+                  "Duration": 900000,
+                  "OffsetInSeconds": 10.65,
+                  "DurationInSeconds": 0.09
+                },
+                {
+                  "Word": "伝える",
+                  "Offset": 107400000,
+                  "Duration": 6800000,
+                  "OffsetInSeconds": 10.74,
+                  "DurationInSeconds": 0.68
+                },
+                {
+                  "Word": "という",
+                  "Offset": 114400000,
+                  "Duration": 3000000,
+                  "OffsetInSeconds": 11.44,
+                  "DurationInSeconds": 0.3
+                },
+                {
+                  "Word": "こと",
+                  "Offset": 117400000,
+                  "Duration": 1800000,
+                  "OffsetInSeconds": 11.74,
+                  "DurationInSeconds": 0.18
+                },
+                {
+                  "Word": "が",
+                  "Offset": 119200000,
+                  "Duration": 1000000,
+                  "OffsetInSeconds": 11.92,
+                  "DurationInSeconds": 0.1
+                },
+                {
+                  "Word": "一つ",
+                  "Offset": 120200000,
+                  "Duration": 2700000,
+                  "OffsetInSeconds": 12.02,
+                  "DurationInSeconds": 0.27
+                },
+                {
+                  "Word": "の",
+                  "Offset": 122900000,
+                  "Duration": 900000,
+                  "OffsetInSeconds": 12.29,
+                  "DurationInSeconds": 0.09
+                },
+                {
+                  "Word": "重要",
+                  "Offset": 123800000,
+                  "Duration": 2400000,
+                  "OffsetInSeconds": 12.38,
+                  "DurationInSeconds": 0.24
+                },
+                {
+                  "Word": "な",
+                  "Offset": 126200000,
+                  "Duration": 600000,
+                  "OffsetInSeconds": 12.62,
+                  "DurationInSeconds": 0.06
+                },
+                {
+                  "Word": "目的",
+                  "Offset": 126800000,
+                  "Duration": 3800000,
+                  "OffsetInSeconds": 12.68,
+                  "DurationInSeconds": 0.38
+                },
+                {
+                  "Word": "なの",
+                  "Offset": 130600000,
+                  "Duration": 3200000,
+                  "OffsetInSeconds": 13.06,
+                  "DurationInSeconds": 0.32
+                },
+                {
+                  "Word": "であります",
+                  "Offset": 133800000,
+                  "Duration": 4200000,
+                  "OffsetInSeconds": 13.38,
+                  "DurationInSeconds": 0.42
+                },
+                {
+                  "Word": "が",
+                  "Offset": 138000000,
+                  "Duration": 2200000,
+                  "OffsetInSeconds": 13.8,
+                  "DurationInSeconds": 0.22
+                },
+                {
+                  "Word": "同時",
+                  "Offset": 140200000,
+                  "Duration": 3200000,
+                  "OffsetInSeconds": 14.02,
+                  "DurationInSeconds": 0.32
+                },
+                {
+                  "Word": "に",
+                  "Offset": 143400000,
+                  "Duration": 3900000,
+                  "OffsetInSeconds": 14.34,
+                  "DurationInSeconds": 0.39
+                },
+                {
+                  "Word": "パラ",
+                  "Offset": 147500000,
+                  "Duration": 3000000,
+                  "OffsetInSeconds": 14.75,
+                  "DurationInSeconds": 0.3
+                },
+                {
+                  "Word": "言語",
+                  "Offset": 150500000,
+                  "Duration": 3500000,
+                  "OffsetInSeconds": 15.05,
+                  "DurationInSeconds": 0.35
+                },
+                {
+                  "Word": "情報",
+                  "Offset": 154000000,
+                  "Duration": 3800000,
+                  "OffsetInSeconds": 15.4,
+                  "DurationInSeconds": 0.38
+                },
+                {
+                  "Word": "を",
+                  "Offset": 157800000,
+                  "Duration": 1000000,
+                  "OffsetInSeconds": 15.78,
+                  "DurationInSeconds": 0.1
+                },
+                {
+                  "Word": "そして",
+                  "Offset": 158800000,
+                  "Duration": 2900000,
+                  "OffsetInSeconds": 15.88,
+                  "DurationInSeconds": 0.29
+                },
+                {
+                  "Word": "非",
+                  "Offset": 161700000,
+                  "Duration": 2500000,
+                  "OffsetInSeconds": 16.17,
+                  "DurationInSeconds": 0.25
+                },
+                {
+                  "Word": "言語",
+                  "Offset": 164200000,
+                  "Duration": 3600000,
+                  "OffsetInSeconds": 16.42,
+                  "DurationInSeconds": 0.36
+                },
+                {
+                  "Word": "情報",
+                  "Offset": 167800000,
+                  "Duration": 6100000,
+                  "OffsetInSeconds": 16.78,
+                  "DurationInSeconds": 0.61
+                },
+                {
+                  "Word": "が",
+                  "Offset": 174100000,
+                  "Duration": 2200000,
+                  "OffsetInSeconds": 17.41,
+                  "DurationInSeconds": 0.22
+                },
+                {
+                  "Word": "伝わって",
+                  "Offset": 176300000,
+                  "Duration": 3400000,
+                  "OffsetInSeconds": 17.63,
+                  "DurationInSeconds": 0.34
+                },
+                {
+                  "Word": "おり",
+                  "Offset": 179700000,
+                  "Duration": 1300000,
+                  "OffsetInSeconds": 17.97,
+                  "DurationInSeconds": 0.13
+                },
+                {
+                  "Word": "ますが",
+                  "Offset": 181000000,
+                  "Duration": 2300000,
+                  "OffsetInSeconds": 18.1,
+                  "DurationInSeconds": 0.23
+                },
+                {
+                  "Word": "この",
+                  "Offset": 183300000,
+                  "Duration": 1800000,
+                  "OffsetInSeconds": 18.33,
+                  "DurationInSeconds": 0.18
+                },
+                {
+                  "Word": "三分",
+                  "Offset": 185100000,
+                  "Duration": 3300000,
+                  "OffsetInSeconds": 18.51,
+                  "DurationInSeconds": 0.33
+                },
+                {
+                  "Word": "法",
+                  "Offset": 188400000,
+                  "Duration": 1500000,
+                  "OffsetInSeconds": 18.84,
+                  "DurationInSeconds": 0.15
+                },
+                {
+                  "Word": "は",
+                  "Offset": 189900000,
+                  "Duration": 700000,
+                  "OffsetInSeconds": 18.99,
+                  "DurationInSeconds": 0.07
+                },
+                {
+                  "Word": "藤崎",
+                  "Offset": 190600000,
+                  "Duration": 3400000,
+                  "OffsetInSeconds": 19.06,
+                  "DurationInSeconds": 0.34
+                },
+                {
+                  "Word": "先生",
+                  "Offset": 194000000,
+                  "Duration": 5100000,
+                  "OffsetInSeconds": 19.4,
+                  "DurationInSeconds": 0.51
+                },
+                {
+                  "Word": "に",
+                  "Offset": 199300000,
+                  "Duration": 1900000,
+                  "OffsetInSeconds": 19.93,
+                  "DurationInSeconds": 0.19
+                },
+                {
+                  "Word": "よる",
+                  "Offset": 201200000,
+                  "Duration": 2000000,
+                  "OffsetInSeconds": 20.12,
+                  "DurationInSeconds": 0.2
+                },
+                {
+                  "Word": "もの",
+                  "Offset": 203200000,
+                  "Duration": 1800000,
+                  "OffsetInSeconds": 20.32,
+                  "DurationInSeconds": 0.18
+                },
+                {
+                  "Word": "で",
+                  "Offset": 205000000,
+                  "Duration": 1000000,
+                  "OffsetInSeconds": 20.5,
+                  "DurationInSeconds": 0.1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "1",
+          "Offset": 206000000,
+          "Duration": 14500000,
+          "OffsetInSeconds": 20.6,
+          "DurationInSeconds": 1.45,
+          "NBest": [
+            {
+              "Confidence": 0.9176549,
+              "Lexical": "して pro",
+              "ITN": "して pro",
+              "MaskedITN": "して pro",
+              "Display": "して pro。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "して",
+                  "Offset": 206000000,
+                  "Duration": 6200000,
+                  "OffsetInSeconds": 20.6,
+                  "DurationInSeconds": 0.62
+                },
+                {
+                  "Word": "pro",
+                  "Offset": 216200000,
+                  "Duration": 4300000,
+                  "OffsetInSeconds": 21.62,
+                  "DurationInSeconds": 0.43
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "2",
+          "Offset": 220500000,
+          "Duration": 90500000,
+          "OffsetInSeconds": 22.05,
+          "DurationInSeconds": 9.05,
+          "NBest": [
+            {
+              "Confidence": 0.9176549,
+              "Lexical": "言語 情報 という の は 要 は 伊藤 的 に 採用 できる 話者 が ちゃんと コントロール して 出して いる ん だ けど も 言語 情報 と 違って 連続 的 に 変化 する",
+              "ITN": "言語 情報 という の は 要 は 伊藤 的 に 採用 できる 話者 が ちゃんと コントロール して 出して いる ん だ けど も 言語 情報 と 違って 連続 的 に 変化 する",
+              "MaskedITN": "言語情報というのは要は伊藤的に採用できる話者がちゃんとコントロールして出しているんだけども言語情報と違って連続的に変化する",
+              "Display": "言語情報というのは要は伊藤的に採用できる話者がちゃんとコントロールして出しているんだけども言語情報と違って連続的に変化する。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "言語",
+                  "Offset": 220500000,
+                  "Duration": 2000000,
+                  "OffsetInSeconds": 22.05,
+                  "DurationInSeconds": 0.2
+                },
+                {
+                  "Word": "情報",
+                  "Offset": 222500000,
+                  "Duration": 3200000,
+                  "OffsetInSeconds": 22.25,
+                  "DurationInSeconds": 0.32
+                },
+                {
+                  "Word": "という",
+                  "Offset": 225700000,
+                  "Duration": 2500000,
+                  "OffsetInSeconds": 22.57,
+                  "DurationInSeconds": 0.25
+                },
+                {
+                  "Word": "の",
+                  "Offset": 228200000,
+                  "Duration": 1200000,
+                  "OffsetInSeconds": 22.82,
+                  "DurationInSeconds": 0.12
+                },
+                {
+                  "Word": "は",
+                  "Offset": 229400000,
+                  "Duration": 3800000,
+                  "OffsetInSeconds": 22.94,
+                  "DurationInSeconds": 0.38
+                },
+                {
+                  "Word": "要",
+                  "Offset": 233400000,
+                  "Duration": 3400000,
+                  "OffsetInSeconds": 23.34,
+                  "DurationInSeconds": 0.34
+                },
+                {
+                  "Word": "は",
+                  "Offset": 236800000,
+                  "Duration": 4400000,
+                  "OffsetInSeconds": 23.68,
+                  "DurationInSeconds": 0.44
+                },
+                {
+                  "Word": "伊藤",
+                  "Offset": 242700000,
+                  "Duration": 3300000,
+                  "OffsetInSeconds": 24.27,
+                  "DurationInSeconds": 0.33
+                },
+                {
+                  "Word": "的",
+                  "Offset": 246000000,
+                  "Duration": 2400000,
+                  "OffsetInSeconds": 24.6,
+                  "DurationInSeconds": 0.24
+                },
+                {
+                  "Word": "に",
+                  "Offset": 248400000,
+                  "Duration": 1200000,
+                  "OffsetInSeconds": 24.84,
+                  "DurationInSeconds": 0.12
+                },
+                {
+                  "Word": "採用",
+                  "Offset": 249600000,
+                  "Duration": 2500000,
+                  "OffsetInSeconds": 24.96,
+                  "DurationInSeconds": 0.25
+                },
+                {
+                  "Word": "できる",
+                  "Offset": 252100000,
+                  "Duration": 4800000,
+                  "OffsetInSeconds": 25.21,
+                  "DurationInSeconds": 0.48
+                },
+                {
+                  "Word": "話者",
+                  "Offset": 257100000,
+                  "Duration": 3700000,
+                  "OffsetInSeconds": 25.71,
+                  "DurationInSeconds": 0.37
+                },
+                {
+                  "Word": "が",
+                  "Offset": 260800000,
+                  "Duration": 1200000,
+                  "OffsetInSeconds": 26.08,
+                  "DurationInSeconds": 0.12
+                },
+                {
+                  "Word": "ちゃんと",
+                  "Offset": 262000000,
+                  "Duration": 2800000,
+                  "OffsetInSeconds": 26.2,
+                  "DurationInSeconds": 0.28
+                },
+                {
+                  "Word": "コントロール",
+                  "Offset": 264800000,
+                  "Duration": 4800000,
+                  "OffsetInSeconds": 26.48,
+                  "DurationInSeconds": 0.48
+                },
+                {
+                  "Word": "して",
+                  "Offset": 269600000,
+                  "Duration": 1400000,
+                  "OffsetInSeconds": 26.96,
+                  "DurationInSeconds": 0.14
+                },
+                {
+                  "Word": "出して",
+                  "Offset": 271000000,
+                  "Duration": 2700000,
+                  "OffsetInSeconds": 27.1,
+                  "DurationInSeconds": 0.27
+                },
+                {
+                  "Word": "いる",
+                  "Offset": 273700000,
+                  "Duration": 1600000,
+                  "OffsetInSeconds": 27.37,
+                  "DurationInSeconds": 0.16
+                },
+                {
+                  "Word": "ん",
+                  "Offset": 275300000,
+                  "Duration": 700000,
+                  "OffsetInSeconds": 27.53,
+                  "DurationInSeconds": 0.07
+                },
+                {
+                  "Word": "だ",
+                  "Offset": 276000000,
+                  "Duration": 1200000,
+                  "OffsetInSeconds": 27.6,
+                  "DurationInSeconds": 0.12
+                },
+                {
+                  "Word": "けど",
+                  "Offset": 277200000,
+                  "Duration": 2500000,
+                  "OffsetInSeconds": 27.72,
+                  "DurationInSeconds": 0.25
+                },
+                {
+                  "Word": "も",
+                  "Offset": 279700000,
+                  "Duration": 3500000,
+                  "OffsetInSeconds": 27.97,
+                  "DurationInSeconds": 0.35
+                },
+                {
+                  "Word": "言語",
+                  "Offset": 283400000,
+                  "Duration": 3600000,
+                  "OffsetInSeconds": 28.34,
+                  "DurationInSeconds": 0.36
+                },
+                {
+                  "Word": "情報",
+                  "Offset": 287000000,
+                  "Duration": 3800000,
+                  "OffsetInSeconds": 28.7,
+                  "DurationInSeconds": 0.38
+                },
+                {
+                  "Word": "と",
+                  "Offset": 290800000,
+                  "Duration": 1300000,
+                  "OffsetInSeconds": 29.08,
+                  "DurationInSeconds": 0.13
+                },
+                {
+                  "Word": "違って",
+                  "Offset": 292100000,
+                  "Duration": 6300000,
+                  "OffsetInSeconds": 29.21,
+                  "DurationInSeconds": 0.63
+                },
+                {
+                  "Word": "連続",
+                  "Offset": 298400000,
+                  "Duration": 3800000,
+                  "OffsetInSeconds": 29.84,
+                  "DurationInSeconds": 0.38
+                },
+                {
+                  "Word": "的",
+                  "Offset": 302200000,
+                  "Duration": 1700000,
+                  "OffsetInSeconds": 30.22,
+                  "DurationInSeconds": 0.17
+                },
+                {
+                  "Word": "に",
+                  "Offset": 303900000,
+                  "Duration": 700000,
+                  "OffsetInSeconds": 30.39,
+                  "DurationInSeconds": 0.07
+                },
+                {
+                  "Word": "変化",
+                  "Offset": 304600000,
+                  "Duration": 3000000,
+                  "OffsetInSeconds": 30.46,
+                  "DurationInSeconds": 0.3
+                },
+                {
+                  "Word": "する",
+                  "Offset": 307600000,
+                  "Duration": 3400000,
+                  "OffsetInSeconds": 30.76,
+                  "DurationInSeconds": 0.34
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "1",
+          "Offset": 312600000,
+          "Duration": 23700000,
+          "OffsetInSeconds": 31.26,
+          "DurationInSeconds": 2.37,
+          "NBest": [
+            {
+              "Confidence": 0.8996403,
+              "Lexical": "カテゴライズ する こと が や 難",
+              "ITN": "カテゴライズ する こと が や 難",
+              "MaskedITN": "カテゴライズすることがや難",
+              "Display": "カテゴライズすることがや難。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "カテゴライズ",
+                  "Offset": 312600000,
+                  "Duration": 14600000,
+                  "OffsetInSeconds": 31.26,
+                  "DurationInSeconds": 1.46
+                },
+                {
+                  "Word": "する",
+                  "Offset": 327200000,
+                  "Duration": 1600000,
+                  "OffsetInSeconds": 32.72,
+                  "DurationInSeconds": 0.16
+                },
+                {
+                  "Word": "こと",
+                  "Offset": 328800000,
+                  "Duration": 1700000,
+                  "OffsetInSeconds": 32.88,
+                  "DurationInSeconds": 0.17
+                },
+                {
+                  "Word": "が",
+                  "Offset": 330500000,
+                  "Duration": 800000,
+                  "OffsetInSeconds": 33.05,
+                  "DurationInSeconds": 0.08
+                },
+                {
+                  "Word": "や",
+                  "Offset": 331300000,
+                  "Duration": 2400000,
+                  "OffsetInSeconds": 33.13,
+                  "DurationInSeconds": 0.24
+                },
+                {
+                  "Word": "難",
+                  "Offset": 333700000,
+                  "Duration": 2600000,
+                  "OffsetInSeconds": 33.37,
+                  "DurationInSeconds": 0.26
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "SpeakerId": "2",
+          "Offset": 336300000,
+          "Duration": 15000000,
+          "OffsetInSeconds": 33.63,
+          "DurationInSeconds": 1.5,
+          "NBest": [
+            {
+              "Confidence": 0.8996403,
+              "Lexical": "しい そういった 状況 が あります",
+              "ITN": "しい そういった 状況 が あります",
+              "MaskedITN": "しいそういった状況があります",
+              "Display": "しいそういった状況があります。",
+              "Sentiment": null,
+              "Words": [
+                {
+                  "Word": "しい",
+                  "Offset": 336300000,
+                  "Duration": 2000000,
+                  "OffsetInSeconds": 33.63,
+                  "DurationInSeconds": 0.2
+                },
+                {
+                  "Word": "そういった",
+                  "Offset": 338300000,
+                  "Duration": 2900000,
+                  "OffsetInSeconds": 33.83,
+                  "DurationInSeconds": 0.29
+                },
+                {
+                  "Word": "状況",
+                  "Offset": 341200000,
+                  "Duration": 2500000,
+                  "OffsetInSeconds": 34.12,
+                  "DurationInSeconds": 0.25
+                },
+                {
+                  "Word": "が",
+                  "Offset": 343700000,
+                  "Duration": 800000,
+                  "OffsetInSeconds": 34.37,
+                  "DurationInSeconds": 0.08
+                },
+                {
+                  "Word": "あります",
+                  "Offset": 344500000,
+                  "Duration": 6800000,
+                  "OffsetInSeconds": 34.45,
+                  "DurationInSeconds": 0.68
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+Transcriptions status: completed (this transcription): True, 0 running, 0 not started yet
