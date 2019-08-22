@@ -30,7 +30,7 @@
 https://pj.ninjal.ac.jp/corpus_center/csj/sample.html の 課題指向対話音声  
 
 ### 解析結果
-[result01.txt](results01.txt)  
+[results01.txt](results01.txt)  
 
 ### 所感
 * 精度は悪いが、これはデータが難しすぎた（GCPでもボロボロだった）  
@@ -43,7 +43,7 @@ https://pj.ninjal.ac.jp/corpus_center/csj/sample.html の 課題指向対話音�
 https://pj.ninjal.ac.jp/corpus_center/csj/sample.html の 学会講演  
 
 ### 解析結果
-[result02.txt](results02.txt)  
+[results02.txt](results02.txt)  
 
 ### 所感
 * 注）ダイアライゼーションはモノラルのみ対応  
@@ -71,7 +71,7 @@ https://pj.ninjal.ac.jp/corpus_center/csj/sample.html の 学会講演
 ```
 
 ### 解析結果
-[result03.txt](result03.txt)  
+[results03.txt](results03.txt)  
 
 ### 所感
 * 概ね正確に記録できているが、端々で変な変換がされているところもある  
